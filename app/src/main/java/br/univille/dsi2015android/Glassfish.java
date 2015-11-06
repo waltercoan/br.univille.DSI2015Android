@@ -15,4 +15,5 @@ public interface Glassfish {
     List<Produto> getAllProdutos();
     @POST("/produto/save")
     void saveProduto(@Body Produto produto);
+    
 }
